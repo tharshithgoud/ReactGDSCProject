@@ -202,7 +202,7 @@ nav {
   }
 }
 
-@media (max-width: 700px) and (max-height: 500px) {
+@media (max-width: 1000px) and (max-height: 500px) {
   .nav-logo .logo-mobile {
     margin: 15px;
     display: block;
