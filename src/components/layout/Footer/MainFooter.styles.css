@@ -1,0 +1,12 @@
+.footer-border-top {
+  background-color: rgba(102, 156, 247, 0.85);
+}
+
+.footer-line {
+  border-top: solid rgba(102, 156, 247);
+  height: 0px !important;
+  padding: 0.5px;
+  background-color: rgba(102, 156, 247);
+  opacity: 0.85;
+  border-radius: 10px;
+}

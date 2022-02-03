@@ -1,0 +1,105 @@
+.desktop-logo-size {
+  min-height: 70px;
+  max-width: 400px;
+  min-width: 350px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.center-text-nav {
+  text-align: center;
+}
+
+.nav-underline-red {
+  display: inline-block;
+}
+
+.nav-underline-red::after {
+  content: "";
+  height: 3px;
+  background: #eb4435;
+  border-radius: 10px;
+  display: block;
+}
+.nav-underline-green {
+  display: inline-block;
+}
+
+.nav-underline-green::after {
+  content: "";
+  height: 3px;
+  background: #169e59;
+  border-radius: 10px;
+  display: block;
+}
+.nav-underline-blue {
+  display: inline-block;
+}
+
+.nav-underline-blue::after {
+  content: "";
+  height: 3px;
+  background: #557dbf;
+  border-radius: 10px;
+  display: block;
+}
+.nav-underline-yellow {
+  display: inline-block;
+}
+
+.nav-underline-yellow::after {
+  content: "";
+  height: 3px;
+  background: #fbbc12;
+  border-radius: 15px;
+  display: block;
+}
+
+.nav-underline-none {
+  text-decoration: none;
+}
+
+.nav-link-black {
+  color: black;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.nav-links-forward {
+  animation: navLinkFade 0.5s ease forwards 0s;
+  transition: transform 0.5s ease;
+}
+
+.nav-links-forward:hover {
+  transform: scale(1.25) !important;
+}
+
+@media (min-width: 991px) and (max-width: 1085px) {
+  #nav-pad-id {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+@media (min-width: 1085px) and (max-width: 1350px) {
+  #nav-pad-id {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
